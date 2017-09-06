@@ -32,7 +32,7 @@ class TopBar extends React.Component {
                     <option key={profile.slug} value={profile.slug}>{profile.name}</option>
                   )
                 })}
-              </select> in the last URL
+              </select> in the last 
               <select className='c-TopBar__select'
                 value={this.props.period}
                 onChange={this._onPeriodChange.bind(this)}>
