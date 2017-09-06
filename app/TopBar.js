@@ -40,9 +40,9 @@ class TopBar extends React.Component {
                 <option value='week'>week</option>
                 <option value='month'>month</option>
                 <option value='year'>year</option>
-              </select>
-              URL: {profile.url}
+              </select>              
             </p>
+            <p>URL: {profile.url}</p>
           </div>
         </div>
       </div>
