@@ -16,7 +16,7 @@ default: true
 # with a minimum value of 12, as only two scheduled tests per day are allowed.
 # To disabled repeated tests, simply remove this property from the profile.
 #
-interval: 6
+interval: 12
 
 #
 # WebPageTest test parameters.
@@ -27,8 +27,8 @@ interval: 6
 parameters:
   connectivity: "Cable"
   location: "Dulles:Chrome"
-  runs: 3
-  url: "http://fa.ml.com/massachussetts/boston/kieltullo"
+  runs: 2
+  url: "https://fa.ml.com/pennsylvania/upper-st.-clair/phillip-elias/, https://fa.ml.com/florida/jupiter/joshua-l-hall/"
 
 #
 # The URL of the WebPageTest instance to be used with this profile. Please note that
