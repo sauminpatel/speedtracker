@@ -41,6 +41,7 @@ class TopBar extends React.Component {
                 <option value='month'>month</option>
                 <option value='year'>year</option>
               </select>
+              URL: {profile.url}
             </p>
           </div>
         </div>
