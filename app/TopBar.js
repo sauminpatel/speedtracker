@@ -42,7 +42,7 @@ class TopBar extends React.Component {
                 <option value='year'>year</option>
               </select>              
             </p>
-            <p>URL </p>
+            "URL"
           </div>
         </div>
       </div>
